@@ -21,3 +21,16 @@ original_df['Cluster'] = clustered['Cluster']
 
 # Save to CSV
 original_df.to_csv('clustered_output.csv', index=False)
+
+
+
+# from pycaret.clustering import *
+
+# # Step 1: Setup the environment
+# s = setup(data=dataset, normalize=True, ignore_features=['Country'], session_id=123)
+
+# # Step 2: Create a clustering model
+# kmeans_model = create_model('kmeans', num_clusters=5)
+
+# # Step 3: Assign clusters to the data
+# clustered_data = assign_model(kmeans_model)
