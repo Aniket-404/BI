@@ -1,0 +1,1954 @@
+2025-05-08 20:12:07,145:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:12:07,145:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:12:07,145:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:12:07,145:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:12:51,596:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:12:51,597:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:12:51,597:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:12:51,597:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:12:52,645:INFO:PyCaret ClassificationExperiment
+2025-05-08 20:12:52,645:INFO:Logging name: clf-default-name
+2025-05-08 20:12:52,645:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2025-05-08 20:12:52,645:INFO:version 3.3.2
+2025-05-08 20:12:52,645:INFO:Initializing setup()
+2025-05-08 20:12:52,645:INFO:self.USI: e453
+2025-05-08 20:12:52,645:INFO:self._variable_keys: {'y_test', 'logging_param', 'pipeline', 'log_plots_param', 'X', 'exp_id', 'fold_groups_param', 'fix_imbalance', 'html_param', 'n_jobs_param', 'target_param', 'seed', 'fold_shuffle_param', '_available_plots', 'fold_generator', 'exp_name_log', 'memory', 'gpu_param', '_ml_usecase', 'idx', 'data', 'y_train', 'gpu_n_jobs_param', 'y', 'is_multiclass', 'X_test', 'X_train', 'USI'}
+2025-05-08 20:12:52,645:INFO:Checking environment
+2025-05-08 20:12:52,645:INFO:python_version: 3.9.12
+2025-05-08 20:12:52,645:INFO:python_build: ('tags/v3.9.12:b28265d', 'Mar 23 2022 23:52:46')
+2025-05-08 20:12:52,645:INFO:machine: AMD64
+2025-05-08 20:12:52,656:INFO:platform: Windows-10-10.0.26100-SP0
+2025-05-08 20:12:52,660:INFO:Memory: svmem(total=8435163136, available=1084698624, percent=87.1, used=7350464512, free=1084698624)
+2025-05-08 20:12:52,660:INFO:Physical Core: 4
+2025-05-08 20:12:52,660:INFO:Logical Core: 8
+2025-05-08 20:12:52,660:INFO:Checking libraries
+2025-05-08 20:12:52,660:INFO:System:
+2025-05-08 20:12:52,660:INFO:    python: 3.9.12 (tags/v3.9.12:b28265d, Mar 23 2022, 23:52:46) [MSC v.1929 64 bit (AMD64)]
+2025-05-08 20:12:52,660:INFO:executable: C:\Users\kambl\AppData\Local\Programs\Python\Python39\python.exe
+2025-05-08 20:12:52,660:INFO:   machine: Windows-10-10.0.26100-SP0
+2025-05-08 20:12:52,660:INFO:PyCaret required dependencies:
+2025-05-08 20:12:52,830:INFO:                 pip: 24.2
+2025-05-08 20:12:52,830:INFO:          setuptools: 58.1.0
+2025-05-08 20:12:52,830:INFO:             pycaret: 3.3.2
+2025-05-08 20:12:52,830:INFO:             IPython: 8.18.1
+2025-05-08 20:12:52,830:INFO:          ipywidgets: 8.1.2
+2025-05-08 20:12:52,830:INFO:                tqdm: 4.66.2
+2025-05-08 20:12:52,830:INFO:               numpy: 1.26.4
+2025-05-08 20:12:52,830:INFO:              pandas: 2.1.4
+2025-05-08 20:12:52,830:INFO:              jinja2: 3.1.3
+2025-05-08 20:12:52,830:INFO:               scipy: 1.11.4
+2025-05-08 20:12:52,830:INFO:              joblib: 1.3.2
+2025-05-08 20:12:52,830:INFO:             sklearn: 1.4.2
+2025-05-08 20:12:52,830:INFO:                pyod: 2.0.5
+2025-05-08 20:12:52,832:INFO:            imblearn: 0.12.4
+2025-05-08 20:12:52,832:INFO:   category_encoders: 2.6.4
+2025-05-08 20:12:52,832:INFO:            lightgbm: 4.6.0
+2025-05-08 20:12:52,832:INFO:               numba: 0.60.0
+2025-05-08 20:12:52,832:INFO:            requests: 2.31.0
+2025-05-08 20:12:52,832:INFO:          matplotlib: 3.7.5
+2025-05-08 20:12:52,832:INFO:          scikitplot: 0.3.7
+2025-05-08 20:12:52,832:INFO:         yellowbrick: 1.5
+2025-05-08 20:12:52,832:INFO:              plotly: 5.20.0
+2025-05-08 20:12:52,832:INFO:    plotly-resampler: Not installed
+2025-05-08 20:12:52,832:INFO:             kaleido: 0.2.1
+2025-05-08 20:12:52,832:INFO:           schemdraw: 0.15
+2025-05-08 20:12:52,832:INFO:         statsmodels: 0.14.4
+2025-05-08 20:12:52,832:INFO:              sktime: 0.26.0
+2025-05-08 20:12:52,832:INFO:               tbats: 1.1.3
+2025-05-08 20:12:52,832:INFO:            pmdarima: 2.0.4
+2025-05-08 20:12:52,832:INFO:              psutil: 5.9.8
+2025-05-08 20:12:52,832:INFO:          markupsafe: 2.1.5
+2025-05-08 20:12:52,832:INFO:             pickle5: Not installed
+2025-05-08 20:12:52,832:INFO:         cloudpickle: 3.1.1
+2025-05-08 20:12:52,832:INFO:         deprecation: 2.1.0
+2025-05-08 20:12:52,832:INFO:              xxhash: 3.5.0
+2025-05-08 20:12:52,833:INFO:           wurlitzer: Not installed
+2025-05-08 20:12:52,833:INFO:PyCaret optional dependencies:
+2025-05-08 20:12:52,846:INFO:                shap: Not installed
+2025-05-08 20:12:52,846:INFO:           interpret: Not installed
+2025-05-08 20:12:52,846:INFO:                umap: Not installed
+2025-05-08 20:12:52,846:INFO:     ydata_profiling: Not installed
+2025-05-08 20:12:52,846:INFO:  explainerdashboard: Not installed
+2025-05-08 20:12:52,846:INFO:             autoviz: Not installed
+2025-05-08 20:12:52,846:INFO:           fairlearn: Not installed
+2025-05-08 20:12:52,847:INFO:          deepchecks: Not installed
+2025-05-08 20:12:52,847:INFO:             xgboost: Not installed
+2025-05-08 20:12:52,847:INFO:            catboost: Not installed
+2025-05-08 20:12:52,847:INFO:              kmodes: Not installed
+2025-05-08 20:12:52,847:INFO:             mlxtend: Not installed
+2025-05-08 20:12:52,847:INFO:       statsforecast: Not installed
+2025-05-08 20:12:52,847:INFO:        tune_sklearn: Not installed
+2025-05-08 20:12:52,847:INFO:                 ray: Not installed
+2025-05-08 20:12:52,847:INFO:            hyperopt: Not installed
+2025-05-08 20:12:52,847:INFO:              optuna: Not installed
+2025-05-08 20:12:52,847:INFO:               skopt: Not installed
+2025-05-08 20:12:52,847:INFO:              mlflow: Not installed
+2025-05-08 20:12:52,847:INFO:              gradio: Not installed
+2025-05-08 20:12:52,847:INFO:             fastapi: Not installed
+2025-05-08 20:12:52,847:INFO:             uvicorn: Not installed
+2025-05-08 20:12:52,847:INFO:              m2cgen: Not installed
+2025-05-08 20:12:52,847:INFO:           evidently: Not installed
+2025-05-08 20:12:52,847:INFO:               fugue: Not installed
+2025-05-08 20:12:52,847:INFO:           streamlit: 1.35.0
+2025-05-08 20:12:52,847:INFO:             prophet: Not installed
+2025-05-08 20:12:52,847:INFO:None
+2025-05-08 20:12:52,847:INFO:Set up data.
+2025-05-08 20:12:52,920:INFO:Set up folding strategy.
+2025-05-08 20:12:52,920:INFO:Set up train/test split.
+2025-05-08 20:12:52,993:INFO:Set up index.
+2025-05-08 20:12:52,996:INFO:Assigning column types.
+2025-05-08 20:12:53,037:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2025-05-08 20:12:53,086:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-05-08 20:12:53,090:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:12:53,133:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:53,133:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:53,182:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-05-08 20:12:53,182:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:12:53,211:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:53,211:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:53,212:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2025-05-08 20:12:53,259:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:12:53,288:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:53,288:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:53,332:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:12:53,360:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:53,360:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:53,360:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2025-05-08 20:12:53,436:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:53,437:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:53,509:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:53,509:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:53,512:INFO:Preparing preprocessing pipeline...
+2025-05-08 20:12:53,519:INFO:Set up label encoding.
+2025-05-08 20:12:53,519:INFO:Set up simple imputation.
+2025-05-08 20:12:53,523:INFO:Set up column name cleaning.
+2025-05-08 20:12:53,633:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:12:53,652:INFO:Finished creating preprocessing pipeline.
+2025-05-08 20:12:53,659:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\kambl\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain'...
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2025-05-08 20:12:53,659:INFO:Creating final display dataframe.
+2025-05-08 20:12:53,744:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:12:53,838:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:12:53,956:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:12:54,056:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:12:54,082:INFO:Setup _display_container:                     Description                                              Value
+0                    Session id                                                123
+1                        Target                                          prognosis
+2                   Target type                                         Multiclass
+3                Target mapping  (vertigo) Paroymsal  Positional Vertigo: 0, AI...
+4           Original data shape                                        (4920, 134)
+5        Transformed data shape                                        (4920, 133)
+6   Transformed train set shape                                        (3444, 133)
+7    Transformed test set shape                                        (1476, 133)
+8              Numeric features                                                133
+9      Rows with missing values                                             100.0%
+10                   Preprocess                                               True
+11              Imputation type                                             simple
+12           Numeric imputation                                               mean
+13       Categorical imputation                                               mode
+14               Fold Generator                                    StratifiedKFold
+15                  Fold Number                                                 10
+16                     CPU Jobs                                                 -1
+17                      Use GPU                                              False
+18               Log Experiment                                              False
+19              Experiment Name                                   clf-default-name
+20                          USI                                               e453
+2025-05-08 20:12:54,159:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:54,160:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:54,232:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:54,233:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:12:54,234:INFO:setup() successfully completed in 1.59s...............
+2025-05-08 20:12:54,234:INFO:Initializing create_model()
+2025-05-08 20:12:54,234:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002CAD8AE9550>, estimator=xgboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-08 20:12:54,234:INFO:Checking exceptions
+2025-05-08 20:14:45,452:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:14:45,452:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:14:45,452:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:14:45,452:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:14:46,562:INFO:PyCaret ClassificationExperiment
+2025-05-08 20:14:46,562:INFO:Logging name: clf-default-name
+2025-05-08 20:14:46,562:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2025-05-08 20:14:46,562:INFO:version 3.3.2
+2025-05-08 20:14:46,562:INFO:Initializing setup()
+2025-05-08 20:14:46,562:INFO:self.USI: 835f
+2025-05-08 20:14:46,562:INFO:self._variable_keys: {'n_jobs_param', 'gpu_param', 'fix_imbalance', 'fold_generator', '_ml_usecase', '_available_plots', 'is_multiclass', 'exp_id', 'pipeline', 'html_param', 'seed', 'y', 'X_test', 'exp_name_log', 'y_train', 'log_plots_param', 'data', 'USI', 'logging_param', 'memory', 'X', 'gpu_n_jobs_param', 'idx', 'target_param', 'fold_groups_param', 'y_test', 'fold_shuffle_param', 'X_train'}
+2025-05-08 20:14:46,562:INFO:Checking environment
+2025-05-08 20:14:46,563:INFO:python_version: 3.9.12
+2025-05-08 20:14:46,563:INFO:python_build: ('tags/v3.9.12:b28265d', 'Mar 23 2022 23:52:46')
+2025-05-08 20:14:46,563:INFO:machine: AMD64
+2025-05-08 20:14:46,574:INFO:platform: Windows-10-10.0.26100-SP0
+2025-05-08 20:14:46,577:INFO:Memory: svmem(total=8435163136, available=1035386880, percent=87.7, used=7399776256, free=1035386880)
+2025-05-08 20:14:46,577:INFO:Physical Core: 4
+2025-05-08 20:14:46,577:INFO:Logical Core: 8
+2025-05-08 20:14:46,578:INFO:Checking libraries
+2025-05-08 20:14:46,578:INFO:System:
+2025-05-08 20:14:46,578:INFO:    python: 3.9.12 (tags/v3.9.12:b28265d, Mar 23 2022, 23:52:46) [MSC v.1929 64 bit (AMD64)]
+2025-05-08 20:14:46,578:INFO:executable: C:\Users\kambl\AppData\Local\Programs\Python\Python39\python.exe
+2025-05-08 20:14:46,578:INFO:   machine: Windows-10-10.0.26100-SP0
+2025-05-08 20:14:46,578:INFO:PyCaret required dependencies:
+2025-05-08 20:14:46,637:INFO:                 pip: 24.2
+2025-05-08 20:14:46,637:INFO:          setuptools: 58.1.0
+2025-05-08 20:14:46,637:INFO:             pycaret: 3.3.2
+2025-05-08 20:14:46,637:INFO:             IPython: 8.18.1
+2025-05-08 20:14:46,637:INFO:          ipywidgets: 8.1.2
+2025-05-08 20:14:46,637:INFO:                tqdm: 4.66.2
+2025-05-08 20:14:46,637:INFO:               numpy: 1.26.4
+2025-05-08 20:14:46,637:INFO:              pandas: 2.1.4
+2025-05-08 20:14:46,637:INFO:              jinja2: 3.1.3
+2025-05-08 20:14:46,637:INFO:               scipy: 1.11.4
+2025-05-08 20:14:46,637:INFO:              joblib: 1.3.2
+2025-05-08 20:14:46,637:INFO:             sklearn: 1.4.2
+2025-05-08 20:14:46,637:INFO:                pyod: 2.0.5
+2025-05-08 20:14:46,637:INFO:            imblearn: 0.12.4
+2025-05-08 20:14:46,638:INFO:   category_encoders: 2.6.4
+2025-05-08 20:14:46,638:INFO:            lightgbm: 4.6.0
+2025-05-08 20:14:46,638:INFO:               numba: 0.60.0
+2025-05-08 20:14:46,638:INFO:            requests: 2.31.0
+2025-05-08 20:14:46,638:INFO:          matplotlib: 3.7.5
+2025-05-08 20:14:46,638:INFO:          scikitplot: 0.3.7
+2025-05-08 20:14:46,638:INFO:         yellowbrick: 1.5
+2025-05-08 20:14:46,638:INFO:              plotly: 5.20.0
+2025-05-08 20:14:46,638:INFO:    plotly-resampler: Not installed
+2025-05-08 20:14:46,638:INFO:             kaleido: 0.2.1
+2025-05-08 20:14:46,638:INFO:           schemdraw: 0.15
+2025-05-08 20:14:46,638:INFO:         statsmodels: 0.14.4
+2025-05-08 20:14:46,638:INFO:              sktime: 0.26.0
+2025-05-08 20:14:46,638:INFO:               tbats: 1.1.3
+2025-05-08 20:14:46,638:INFO:            pmdarima: 2.0.4
+2025-05-08 20:14:46,638:INFO:              psutil: 5.9.8
+2025-05-08 20:14:46,638:INFO:          markupsafe: 2.1.5
+2025-05-08 20:14:46,638:INFO:             pickle5: Not installed
+2025-05-08 20:14:46,638:INFO:         cloudpickle: 3.1.1
+2025-05-08 20:14:46,638:INFO:         deprecation: 2.1.0
+2025-05-08 20:14:46,638:INFO:              xxhash: 3.5.0
+2025-05-08 20:14:46,638:INFO:           wurlitzer: Not installed
+2025-05-08 20:14:46,638:INFO:PyCaret optional dependencies:
+2025-05-08 20:14:55,859:INFO:                shap: Not installed
+2025-05-08 20:14:55,859:INFO:           interpret: Not installed
+2025-05-08 20:14:55,859:INFO:                umap: Not installed
+2025-05-08 20:14:55,859:INFO:     ydata_profiling: Not installed
+2025-05-08 20:14:55,859:INFO:  explainerdashboard: Not installed
+2025-05-08 20:14:55,859:INFO:             autoviz: Not installed
+2025-05-08 20:14:55,859:INFO:           fairlearn: Not installed
+2025-05-08 20:14:55,859:INFO:          deepchecks: Not installed
+2025-05-08 20:14:55,860:INFO:             xgboost: 2.1.4
+2025-05-08 20:14:55,860:INFO:            catboost: Not installed
+2025-05-08 20:14:55,860:INFO:              kmodes: Not installed
+2025-05-08 20:14:55,860:INFO:             mlxtend: Not installed
+2025-05-08 20:14:55,860:INFO:       statsforecast: Not installed
+2025-05-08 20:14:55,860:INFO:        tune_sklearn: Not installed
+2025-05-08 20:14:55,860:INFO:                 ray: Not installed
+2025-05-08 20:14:55,860:INFO:            hyperopt: Not installed
+2025-05-08 20:14:55,860:INFO:              optuna: Not installed
+2025-05-08 20:14:55,860:INFO:               skopt: Not installed
+2025-05-08 20:14:55,860:INFO:              mlflow: Not installed
+2025-05-08 20:14:55,860:INFO:              gradio: Not installed
+2025-05-08 20:14:55,860:INFO:             fastapi: Not installed
+2025-05-08 20:14:55,860:INFO:             uvicorn: Not installed
+2025-05-08 20:14:55,860:INFO:              m2cgen: Not installed
+2025-05-08 20:14:55,860:INFO:           evidently: Not installed
+2025-05-08 20:14:55,860:INFO:               fugue: Not installed
+2025-05-08 20:14:55,860:INFO:           streamlit: 1.35.0
+2025-05-08 20:14:55,860:INFO:             prophet: Not installed
+2025-05-08 20:14:55,860:INFO:None
+2025-05-08 20:14:55,860:INFO:Set up data.
+2025-05-08 20:14:55,919:INFO:Set up folding strategy.
+2025-05-08 20:14:55,919:INFO:Set up train/test split.
+2025-05-08 20:14:55,961:INFO:Set up index.
+2025-05-08 20:14:55,962:INFO:Assigning column types.
+2025-05-08 20:14:55,990:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2025-05-08 20:14:56,038:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-05-08 20:14:56,042:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:14:56,082:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:14:56,084:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:14:56,133:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-05-08 20:14:56,134:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:14:56,164:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:14:56,167:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:14:56,167:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2025-05-08 20:14:56,215:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:14:56,244:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:14:56,246:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:14:56,296:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:14:56,326:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:14:56,329:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:14:56,329:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2025-05-08 20:14:56,403:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:14:56,406:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:14:56,481:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:14:56,483:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:14:56,485:INFO:Preparing preprocessing pipeline...
+2025-05-08 20:14:56,490:INFO:Set up label encoding.
+2025-05-08 20:14:56,490:INFO:Set up simple imputation.
+2025-05-08 20:14:56,495:INFO:Set up column name cleaning.
+2025-05-08 20:14:56,622:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:14:56,647:INFO:Finished creating preprocessing pipeline.
+2025-05-08 20:14:56,657:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\kambl\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain'...
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2025-05-08 20:14:56,657:INFO:Creating final display dataframe.
+2025-05-08 20:14:56,796:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:14:56,925:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:14:57,064:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:14:57,184:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:14:57,213:INFO:Setup _display_container:                     Description                                              Value
+0                    Session id                                                123
+1                        Target                                          prognosis
+2                   Target type                                         Multiclass
+3                Target mapping  (vertigo) Paroymsal  Positional Vertigo: 0, AI...
+4           Original data shape                                        (4920, 134)
+5        Transformed data shape                                        (4920, 133)
+6   Transformed train set shape                                        (3444, 133)
+7    Transformed test set shape                                        (1476, 133)
+8              Numeric features                                                133
+9      Rows with missing values                                             100.0%
+10                   Preprocess                                               True
+11              Imputation type                                             simple
+12           Numeric imputation                                               mean
+13       Categorical imputation                                               mode
+14               Fold Generator                                    StratifiedKFold
+15                  Fold Number                                                 10
+16                     CPU Jobs                                                 -1
+17                      Use GPU                                              False
+18               Log Experiment                                              False
+19              Experiment Name                                   clf-default-name
+20                          USI                                               835f
+2025-05-08 20:14:57,294:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:14:57,297:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:14:57,370:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:14:57,373:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:14:57,374:INFO:setup() successfully completed in 10.81s...............
+2025-05-08 20:14:57,374:INFO:Initializing create_model()
+2025-05-08 20:14:57,374:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000022EC3899550>, estimator=xgboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-08 20:14:57,374:INFO:Checking exceptions
+2025-05-08 20:14:57,381:INFO:Importing libraries
+2025-05-08 20:14:57,381:INFO:Copying training dataset
+2025-05-08 20:14:57,417:INFO:Defining folds
+2025-05-08 20:14:57,417:INFO:Declaring metric variables
+2025-05-08 20:14:57,417:INFO:Importing untrained model
+2025-05-08 20:14:57,418:INFO:Extreme Gradient Boosting Imported successfully
+2025-05-08 20:14:57,418:INFO:Starting cross validation
+2025-05-08 20:14:57,419:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-08 20:15:04,213:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:04,215:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:05,161:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:05,161:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:05,175:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:05,190:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:05,205:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:05,213:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:10,182:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:10,205:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:10,356:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:10,357:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:10,365:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:10,366:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:10,373:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:10,375:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:10,534:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:10,544:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:10,804:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:10,842:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:10,948:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:10,956:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:10,964:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:10,983:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:10,992:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:10,999:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:11,714:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:11,750:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:11,780:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:11,844:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:11,848:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:11,854:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:11,868:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:11,874:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:11,881:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:11,904:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:11,911:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:11,921:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:12,063:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:12,185:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:12,192:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:12,198:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:14,417:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:14,464:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:14,518:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:14,523:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:14,527:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:14,559:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:14,563:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:14,568:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:15:14,578:INFO:Calculating mean and std
+2025-05-08 20:15:14,581:INFO:Creating metrics dataframe
+2025-05-08 20:15:14,584:INFO:Finalizing model
+2025-05-08 20:15:14,606:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:15,975:INFO:Uploading results into container
+2025-05-08 20:15:15,976:INFO:Uploading model into container now
+2025-05-08 20:15:15,988:INFO:_master_model_container: 1
+2025-05-08 20:15:15,988:INFO:_display_container: 2
+2025-05-08 20:15:15,989:INFO:XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device='cpu', early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=-1,
+              num_parallel_tree=None, objective='multi:softprob', ...)
+2025-05-08 20:15:15,989:INFO:create_model() successfully completed......................................
+2025-05-08 20:15:16,095:INFO:Initializing finalize_model()
+2025-05-08 20:15:16,095:INFO:finalize_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000022EC3899550>, estimator=XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device='cpu', early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=-1,
+              num_parallel_tree=None, objective='multi:softprob', ...), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2025-05-08 20:15:16,096:INFO:Finalizing XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device='cpu', early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=-1,
+              num_parallel_tree=None, objective='multi:softprob', ...)
+2025-05-08 20:15:16,124:INFO:Initializing create_model()
+2025-05-08 20:15:16,124:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000022EC3899550>, estimator=XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device='cpu', early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=-1,
+              num_parallel_tree=None, objective='multi:softprob', ...), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-08 20:15:16,124:INFO:Checking exceptions
+2025-05-08 20:15:16,124:INFO:Importing libraries
+2025-05-08 20:15:16,124:INFO:Copying training dataset
+2025-05-08 20:15:16,127:INFO:Defining folds
+2025-05-08 20:15:16,127:INFO:Declaring metric variables
+2025-05-08 20:15:16,127:INFO:Importing untrained model
+2025-05-08 20:15:16,127:INFO:Declaring custom model
+2025-05-08 20:15:16,128:INFO:Extreme Gradient Boosting Imported successfully
+2025-05-08 20:15:16,129:INFO:Cross validation set to False
+2025-05-08 20:15:16,130:INFO:Fitting Model
+2025-05-08 20:15:16,152:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:15:17,693:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_ton...
+                               importance_type=None,
+                               interaction_constraints=None, learning_rate=None,
+                               max_bin=None, max_cat_threshold=None,
+                               max_cat_to_onehot=None, max_delta_step=None,
+                               max_depth=None, max_leaves=None,
+                               min_child_weight=None, missing=nan,
+                               monotone_constraints=None, multi_strategy=None,
+                               n_estimators=None, n_jobs=-1,
+                               num_parallel_tree=None,
+                               objective='multi:softprob', ...))],
+         verbose=False)
+2025-05-08 20:15:17,693:INFO:create_model() successfully completed......................................
+2025-05-08 20:15:17,752:INFO:_master_model_container: 1
+2025-05-08 20:15:17,752:INFO:_display_container: 2
+2025-05-08 20:15:17,763:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_ton...
+                               importance_type=None,
+                               interaction_constraints=None, learning_rate=None,
+                               max_bin=None, max_cat_threshold=None,
+                               max_cat_to_onehot=None, max_delta_step=None,
+                               max_depth=None, max_leaves=None,
+                               min_child_weight=None, missing=nan,
+                               monotone_constraints=None, multi_strategy=None,
+                               n_estimators=None, n_jobs=-1,
+                               num_parallel_tree=None,
+                               objective='multi:softprob', ...))],
+         verbose=False)
+2025-05-08 20:15:17,763:INFO:finalize_model() successfully completed......................................
+2025-05-08 20:15:17,841:INFO:Initializing save_model()
+2025-05-08 20:15:17,842:INFO:save_model(model=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_ton...
+                               importance_type=None,
+                               interaction_constraints=None, learning_rate=None,
+                               max_bin=None, max_cat_threshold=None,
+                               max_cat_to_onehot=None, max_delta_step=None,
+                               max_depth=None, max_leaves=None,
+                               min_child_weight=None, missing=nan,
+                               monotone_constraints=None, multi_strategy=None,
+                               n_estimators=None, n_jobs=-1,
+                               num_parallel_tree=None,
+                               objective='multi:softprob', ...))],
+         verbose=False), model_name=xgboost_model, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\kambl\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain'...
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2025-05-08 20:15:17,842:INFO:Adding model into prep_pipe
+2025-05-08 20:15:17,842:WARNING:Only Model saved as it was a pipeline.
+2025-05-08 20:15:17,983:INFO:xgboost_model.pkl saved in current working directory
+2025-05-08 20:15:17,994:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_ton...
+                               importance_type=None,
+                               interaction_constraints=None, learning_rate=None,
+                               max_bin=None, max_cat_threshold=None,
+                               max_cat_to_onehot=None, max_delta_step=None,
+                               max_depth=None, max_leaves=None,
+                               min_child_weight=None, missing=nan,
+                               monotone_constraints=None, multi_strategy=None,
+                               n_estimators=None, n_jobs=-1,
+                               num_parallel_tree=None,
+                               objective='multi:softprob', ...))],
+         verbose=False)
+2025-05-08 20:15:17,994:INFO:save_model() successfully completed......................................
+2025-05-08 20:16:00,001:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:16:00,001:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:16:00,001:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:16:00,001:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:16:01,240:INFO:Initializing load_model()
+2025-05-08 20:16:01,240:INFO:load_model(model_name=xgboost_model, platform=None, authentication=None, verbose=True)
+2025-05-08 20:16:01,545:INFO:Initializing predict_model()
+2025-05-08 20:16:01,545:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000262148F9550>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_tongue',
+                                             'muscle_wasting', 'vomiting',
+                                             'burni...
+                               feature_types=None, gamma=None, grow_policy=None,
+                               importance_type=None,
+                               interaction_constraints=None, learning_rate=None,
+                               max_bin=None, max_cat_threshold=None,
+                               max_cat_to_onehot=None, max_delta_step=None,
+                               max_depth=None, max_leaves=None,
+                               min_child_weight=None, missing=nan,
+                               monotone_constraints=None, multi_strategy=None,
+                               n_estimators=None, n_jobs=-1,
+                               num_parallel_tree=None,
+                               objective='multi:softprob', ...))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000262149D70D0>)
+2025-05-08 20:16:01,545:INFO:Checking exceptions
+2025-05-08 20:16:01,545:INFO:Preloading libraries
+2025-05-08 20:16:01,546:INFO:Set up data.
+2025-05-08 20:16:01,570:INFO:Set up index.
+2025-05-08 20:16:44,668:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:16:44,668:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:16:44,668:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:16:44,668:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:16:45,651:INFO:Initializing load_model()
+2025-05-08 20:16:45,651:INFO:load_model(model_name=xgboost_model, platform=None, authentication=None, verbose=True)
+2025-05-08 20:16:45,960:INFO:Initializing predict_model()
+2025-05-08 20:16:45,960:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001FAA383BFD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_tongue',
+                                             'muscle_wasting', 'vomiting',
+                                             'burni...
+                               feature_types=None, gamma=None, grow_policy=None,
+                               importance_type=None,
+                               interaction_constraints=None, learning_rate=None,
+                               max_bin=None, max_cat_threshold=None,
+                               max_cat_to_onehot=None, max_delta_step=None,
+                               max_depth=None, max_leaves=None,
+                               min_child_weight=None, missing=nan,
+                               monotone_constraints=None, multi_strategy=None,
+                               n_estimators=None, n_jobs=-1,
+                               num_parallel_tree=None,
+                               objective='multi:softprob', ...))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001FAA3867160>)
+2025-05-08 20:16:45,960:INFO:Checking exceptions
+2025-05-08 20:16:45,960:INFO:Preloading libraries
+2025-05-08 20:16:45,960:INFO:Set up data.
+2025-05-08 20:16:45,986:INFO:Set up index.
+2025-05-08 20:17:29,763:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:17:29,764:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:17:29,764:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:17:29,764:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:17:30,783:INFO:PyCaret ClassificationExperiment
+2025-05-08 20:17:30,783:INFO:Logging name: clf-default-name
+2025-05-08 20:17:30,783:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2025-05-08 20:17:30,783:INFO:version 3.3.2
+2025-05-08 20:17:30,783:INFO:Initializing setup()
+2025-05-08 20:17:30,783:INFO:self.USI: e877
+2025-05-08 20:17:30,783:INFO:self._variable_keys: {'log_plots_param', 'exp_name_log', 'fix_imbalance', 'n_jobs_param', 'X', '_available_plots', 'seed', 'html_param', 'fold_generator', 'memory', 'y_train', 'target_param', 'fold_shuffle_param', 'fold_groups_param', 'exp_id', 'data', '_ml_usecase', 'X_test', 'X_train', 'logging_param', 'idx', 'y_test', 'pipeline', 'USI', 'is_multiclass', 'gpu_param', 'y', 'gpu_n_jobs_param'}
+2025-05-08 20:17:30,784:INFO:Checking environment
+2025-05-08 20:17:30,784:INFO:python_version: 3.9.12
+2025-05-08 20:17:30,784:INFO:python_build: ('tags/v3.9.12:b28265d', 'Mar 23 2022 23:52:46')
+2025-05-08 20:17:30,784:INFO:machine: AMD64
+2025-05-08 20:17:30,793:INFO:platform: Windows-10-10.0.26100-SP0
+2025-05-08 20:17:30,796:INFO:Memory: svmem(total=8435163136, available=2444804096, percent=71.0, used=5990359040, free=2444804096)
+2025-05-08 20:17:30,797:INFO:Physical Core: 4
+2025-05-08 20:17:30,797:INFO:Logical Core: 8
+2025-05-08 20:17:30,797:INFO:Checking libraries
+2025-05-08 20:17:30,797:INFO:System:
+2025-05-08 20:17:30,797:INFO:    python: 3.9.12 (tags/v3.9.12:b28265d, Mar 23 2022, 23:52:46) [MSC v.1929 64 bit (AMD64)]
+2025-05-08 20:17:30,797:INFO:executable: C:\Users\kambl\AppData\Local\Programs\Python\Python39\python.exe
+2025-05-08 20:17:30,797:INFO:   machine: Windows-10-10.0.26100-SP0
+2025-05-08 20:17:30,797:INFO:PyCaret required dependencies:
+2025-05-08 20:17:30,856:INFO:                 pip: 24.2
+2025-05-08 20:17:30,856:INFO:          setuptools: 58.1.0
+2025-05-08 20:17:30,856:INFO:             pycaret: 3.3.2
+2025-05-08 20:17:30,856:INFO:             IPython: 8.18.1
+2025-05-08 20:17:30,856:INFO:          ipywidgets: 8.1.2
+2025-05-08 20:17:30,856:INFO:                tqdm: 4.66.2
+2025-05-08 20:17:30,856:INFO:               numpy: 1.26.4
+2025-05-08 20:17:30,856:INFO:              pandas: 2.1.4
+2025-05-08 20:17:30,856:INFO:              jinja2: 3.1.3
+2025-05-08 20:17:30,856:INFO:               scipy: 1.11.4
+2025-05-08 20:17:30,856:INFO:              joblib: 1.3.2
+2025-05-08 20:17:30,856:INFO:             sklearn: 1.4.2
+2025-05-08 20:17:30,856:INFO:                pyod: 2.0.5
+2025-05-08 20:17:30,856:INFO:            imblearn: 0.12.4
+2025-05-08 20:17:30,857:INFO:   category_encoders: 2.6.4
+2025-05-08 20:17:30,857:INFO:            lightgbm: 4.6.0
+2025-05-08 20:17:30,857:INFO:               numba: 0.60.0
+2025-05-08 20:17:30,857:INFO:            requests: 2.31.0
+2025-05-08 20:17:30,857:INFO:          matplotlib: 3.7.5
+2025-05-08 20:17:30,857:INFO:          scikitplot: 0.3.7
+2025-05-08 20:17:30,857:INFO:         yellowbrick: 1.5
+2025-05-08 20:17:30,857:INFO:              plotly: 5.20.0
+2025-05-08 20:17:30,857:INFO:    plotly-resampler: Not installed
+2025-05-08 20:17:30,857:INFO:             kaleido: 0.2.1
+2025-05-08 20:17:30,857:INFO:           schemdraw: 0.15
+2025-05-08 20:17:30,857:INFO:         statsmodels: 0.14.4
+2025-05-08 20:17:30,857:INFO:              sktime: 0.26.0
+2025-05-08 20:17:30,857:INFO:               tbats: 1.1.3
+2025-05-08 20:17:30,857:INFO:            pmdarima: 2.0.4
+2025-05-08 20:17:30,857:INFO:              psutil: 5.9.8
+2025-05-08 20:17:30,857:INFO:          markupsafe: 2.1.5
+2025-05-08 20:17:30,857:INFO:             pickle5: Not installed
+2025-05-08 20:17:30,857:INFO:         cloudpickle: 3.1.1
+2025-05-08 20:17:30,857:INFO:         deprecation: 2.1.0
+2025-05-08 20:17:30,857:INFO:              xxhash: 3.5.0
+2025-05-08 20:17:30,857:INFO:           wurlitzer: Not installed
+2025-05-08 20:17:30,857:INFO:PyCaret optional dependencies:
+2025-05-08 20:17:30,898:INFO:                shap: Not installed
+2025-05-08 20:17:30,898:INFO:           interpret: Not installed
+2025-05-08 20:17:30,898:INFO:                umap: Not installed
+2025-05-08 20:17:30,898:INFO:     ydata_profiling: Not installed
+2025-05-08 20:17:30,898:INFO:  explainerdashboard: Not installed
+2025-05-08 20:17:30,898:INFO:             autoviz: Not installed
+2025-05-08 20:17:30,898:INFO:           fairlearn: Not installed
+2025-05-08 20:17:30,898:INFO:          deepchecks: Not installed
+2025-05-08 20:17:30,898:INFO:             xgboost: 2.1.4
+2025-05-08 20:17:30,898:INFO:            catboost: Not installed
+2025-05-08 20:17:30,898:INFO:              kmodes: Not installed
+2025-05-08 20:17:30,898:INFO:             mlxtend: Not installed
+2025-05-08 20:17:30,898:INFO:       statsforecast: Not installed
+2025-05-08 20:17:30,898:INFO:        tune_sklearn: Not installed
+2025-05-08 20:17:30,898:INFO:                 ray: Not installed
+2025-05-08 20:17:30,898:INFO:            hyperopt: Not installed
+2025-05-08 20:17:30,898:INFO:              optuna: Not installed
+2025-05-08 20:17:30,898:INFO:               skopt: Not installed
+2025-05-08 20:17:30,898:INFO:              mlflow: Not installed
+2025-05-08 20:17:30,898:INFO:              gradio: Not installed
+2025-05-08 20:17:30,898:INFO:             fastapi: Not installed
+2025-05-08 20:17:30,898:INFO:             uvicorn: Not installed
+2025-05-08 20:17:30,899:INFO:              m2cgen: Not installed
+2025-05-08 20:17:30,899:INFO:           evidently: Not installed
+2025-05-08 20:17:30,899:INFO:               fugue: Not installed
+2025-05-08 20:17:30,899:INFO:           streamlit: 1.35.0
+2025-05-08 20:17:30,899:INFO:             prophet: Not installed
+2025-05-08 20:17:30,899:INFO:None
+2025-05-08 20:17:30,899:INFO:Set up data.
+2025-05-08 20:17:30,932:INFO:Set up folding strategy.
+2025-05-08 20:17:30,932:INFO:Set up train/test split.
+2025-05-08 20:17:30,964:INFO:Set up index.
+2025-05-08 20:17:30,964:INFO:Assigning column types.
+2025-05-08 20:17:30,991:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2025-05-08 20:17:31,036:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-05-08 20:17:31,040:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:17:31,075:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:17:31,077:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:17:31,122:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-05-08 20:17:31,123:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:17:31,149:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:17:31,152:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:17:31,152:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2025-05-08 20:17:31,197:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:17:31,224:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:17:31,226:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:17:31,270:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:17:31,298:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:17:31,301:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:17:31,301:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2025-05-08 20:17:31,373:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:17:31,376:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:17:31,448:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:17:31,451:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:17:31,452:INFO:Preparing preprocessing pipeline...
+2025-05-08 20:17:31,456:INFO:Set up label encoding.
+2025-05-08 20:17:31,456:INFO:Set up simple imputation.
+2025-05-08 20:17:31,460:INFO:Set up column name cleaning.
+2025-05-08 20:17:31,548:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:31,563:INFO:Finished creating preprocessing pipeline.
+2025-05-08 20:17:31,570:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\kambl\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain'...
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2025-05-08 20:17:31,570:INFO:Creating final display dataframe.
+2025-05-08 20:17:31,649:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:31,734:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:31,825:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:31,917:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:31,940:INFO:Setup _display_container:                     Description                                              Value
+0                    Session id                                                123
+1                        Target                                          prognosis
+2                   Target type                                         Multiclass
+3                Target mapping  (vertigo) Paroymsal  Positional Vertigo: 0, AI...
+4           Original data shape                                        (4920, 134)
+5        Transformed data shape                                        (4920, 133)
+6   Transformed train set shape                                        (3444, 133)
+7    Transformed test set shape                                        (1476, 133)
+8              Numeric features                                                133
+9      Rows with missing values                                             100.0%
+10                   Preprocess                                               True
+11              Imputation type                                             simple
+12           Numeric imputation                                               mean
+13       Categorical imputation                                               mode
+14               Fold Generator                                    StratifiedKFold
+15                  Fold Number                                                 10
+16                     CPU Jobs                                                 -1
+17                      Use GPU                                              False
+18               Log Experiment                                              False
+19              Experiment Name                                   clf-default-name
+20                          USI                                               e877
+2025-05-08 20:17:32,024:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:17:32,027:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:17:32,097:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:17:32,100:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:17:32,100:INFO:setup() successfully completed in 1.32s...............
+2025-05-08 20:17:32,100:INFO:Initializing create_model()
+2025-05-08 20:17:32,100:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000026123959550>, estimator=xgboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-08 20:17:32,100:INFO:Checking exceptions
+2025-05-08 20:17:32,104:INFO:Importing libraries
+2025-05-08 20:17:32,104:INFO:Copying training dataset
+2025-05-08 20:17:32,138:INFO:Defining folds
+2025-05-08 20:17:32,138:INFO:Declaring metric variables
+2025-05-08 20:17:32,138:INFO:Importing untrained model
+2025-05-08 20:17:32,139:INFO:Extreme Gradient Boosting Imported successfully
+2025-05-08 20:17:32,139:INFO:Starting cross validation
+2025-05-08 20:17:32,140:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-08 20:17:37,528:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:37,577:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:37,680:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:37,694:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:37,754:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:37,781:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:37,824:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:37,880:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:43,120:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:43,232:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:43,270:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,278:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,283:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:43,285:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,320:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:43,392:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,399:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:43,400:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,409:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,424:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:43,445:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,455:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,464:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,471:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:43,509:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,518:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,527:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,582:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:43,585:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,593:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:43,599:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,609:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,674:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,684:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,693:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,749:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:43,792:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,803:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,812:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,908:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,914:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:43,920:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:46,719:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:46,840:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:46,848:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:46,856:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:46,860:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:46,985:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:46,989:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:46,993:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:17:47,009:INFO:Calculating mean and std
+2025-05-08 20:17:47,010:INFO:Creating metrics dataframe
+2025-05-08 20:17:47,012:INFO:Finalizing model
+2025-05-08 20:17:47,035:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:48,947:INFO:Uploading results into container
+2025-05-08 20:17:48,947:INFO:Uploading model into container now
+2025-05-08 20:17:48,962:INFO:_master_model_container: 1
+2025-05-08 20:17:48,962:INFO:_display_container: 2
+2025-05-08 20:17:48,963:INFO:XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device='cpu', early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=-1,
+              num_parallel_tree=None, objective='multi:softprob', ...)
+2025-05-08 20:17:48,963:INFO:create_model() successfully completed......................................
+2025-05-08 20:17:49,039:INFO:Initializing finalize_model()
+2025-05-08 20:17:49,039:INFO:finalize_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000026123959550>, estimator=XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device='cpu', early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=-1,
+              num_parallel_tree=None, objective='multi:softprob', ...), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2025-05-08 20:17:49,040:INFO:Finalizing XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device='cpu', early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=-1,
+              num_parallel_tree=None, objective='multi:softprob', ...)
+2025-05-08 20:17:49,072:INFO:Initializing create_model()
+2025-05-08 20:17:49,072:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000026123959550>, estimator=XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device='cpu', early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=-1,
+              num_parallel_tree=None, objective='multi:softprob', ...), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-08 20:17:49,072:INFO:Checking exceptions
+2025-05-08 20:17:49,073:INFO:Importing libraries
+2025-05-08 20:17:49,073:INFO:Copying training dataset
+2025-05-08 20:17:49,076:INFO:Defining folds
+2025-05-08 20:17:49,076:INFO:Declaring metric variables
+2025-05-08 20:17:49,076:INFO:Importing untrained model
+2025-05-08 20:17:49,076:INFO:Declaring custom model
+2025-05-08 20:17:49,077:INFO:Extreme Gradient Boosting Imported successfully
+2025-05-08 20:17:49,079:INFO:Cross validation set to False
+2025-05-08 20:17:49,079:INFO:Fitting Model
+2025-05-08 20:17:49,102:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\impute\_base.py:577: UserWarning: Skipping features without any observed values: ['Unnamed: 133']. At least one non-missing value is needed for imputation with strategy='mean'.
+  warnings.warn(
+
+2025-05-08 20:17:50,805:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_ton...
+                               importance_type=None,
+                               interaction_constraints=None, learning_rate=None,
+                               max_bin=None, max_cat_threshold=None,
+                               max_cat_to_onehot=None, max_delta_step=None,
+                               max_depth=None, max_leaves=None,
+                               min_child_weight=None, missing=nan,
+                               monotone_constraints=None, multi_strategy=None,
+                               n_estimators=None, n_jobs=-1,
+                               num_parallel_tree=None,
+                               objective='multi:softprob', ...))],
+         verbose=False)
+2025-05-08 20:17:50,805:INFO:create_model() successfully completed......................................
+2025-05-08 20:17:50,863:INFO:_master_model_container: 1
+2025-05-08 20:17:50,863:INFO:_display_container: 2
+2025-05-08 20:17:50,873:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_ton...
+                               importance_type=None,
+                               interaction_constraints=None, learning_rate=None,
+                               max_bin=None, max_cat_threshold=None,
+                               max_cat_to_onehot=None, max_delta_step=None,
+                               max_depth=None, max_leaves=None,
+                               min_child_weight=None, missing=nan,
+                               monotone_constraints=None, multi_strategy=None,
+                               n_estimators=None, n_jobs=-1,
+                               num_parallel_tree=None,
+                               objective='multi:softprob', ...))],
+         verbose=False)
+2025-05-08 20:17:50,874:INFO:finalize_model() successfully completed......................................
+2025-05-08 20:17:50,946:INFO:Initializing save_model()
+2025-05-08 20:17:50,946:INFO:save_model(model=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_ton...
+                               importance_type=None,
+                               interaction_constraints=None, learning_rate=None,
+                               max_bin=None, max_cat_threshold=None,
+                               max_cat_to_onehot=None, max_delta_step=None,
+                               max_depth=None, max_leaves=None,
+                               min_child_weight=None, missing=nan,
+                               monotone_constraints=None, multi_strategy=None,
+                               n_estimators=None, n_jobs=-1,
+                               num_parallel_tree=None,
+                               objective='multi:softprob', ...))],
+         verbose=False), model_name=xgboost_model, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\kambl\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain'...
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2025-05-08 20:17:50,947:INFO:Adding model into prep_pipe
+2025-05-08 20:17:50,947:WARNING:Only Model saved as it was a pipeline.
+2025-05-08 20:17:51,009:INFO:xgboost_model.pkl saved in current working directory
+2025-05-08 20:17:51,022:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_ton...
+                               importance_type=None,
+                               interaction_constraints=None, learning_rate=None,
+                               max_bin=None, max_cat_threshold=None,
+                               max_cat_to_onehot=None, max_delta_step=None,
+                               max_depth=None, max_leaves=None,
+                               min_child_weight=None, missing=nan,
+                               monotone_constraints=None, multi_strategy=None,
+                               n_estimators=None, n_jobs=-1,
+                               num_parallel_tree=None,
+                               objective='multi:softprob', ...))],
+         verbose=False)
+2025-05-08 20:17:51,022:INFO:save_model() successfully completed......................................
+2025-05-08 20:18:02,105:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:18:02,105:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:18:02,106:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:18:02,106:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:18:03,097:INFO:Initializing load_model()
+2025-05-08 20:18:03,097:INFO:load_model(model_name=xgboost_model, platform=None, authentication=None, verbose=True)
+2025-05-08 20:19:03,349:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:19:03,349:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:19:03,349:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:19:03,349:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:19:04,282:INFO:Initializing load_model()
+2025-05-08 20:19:04,282:INFO:load_model(model_name=xgboost_model, platform=None, authentication=None, verbose=True)
+2025-05-08 20:20:11,738:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:20:11,738:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:20:11,739:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:20:11,739:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:20:12,769:INFO:PyCaret ClassificationExperiment
+2025-05-08 20:20:12,769:INFO:Logging name: clf-default-name
+2025-05-08 20:20:12,769:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2025-05-08 20:20:12,769:INFO:version 3.3.2
+2025-05-08 20:20:12,769:INFO:Initializing setup()
+2025-05-08 20:20:12,769:INFO:self.USI: 99f2
+2025-05-08 20:20:12,769:INFO:self._variable_keys: {'USI', 'pipeline', '_available_plots', 'memory', 'fold_generator', 'y_train', 'fix_imbalance', 'html_param', 'y', 'log_plots_param', 'gpu_param', 'exp_name_log', 'is_multiclass', 'X_test', 'X_train', 'y_test', 'data', 'idx', 'X', 'exp_id', 'n_jobs_param', 'target_param', 'fold_groups_param', 'logging_param', 'seed', 'fold_shuffle_param', '_ml_usecase', 'gpu_n_jobs_param'}
+2025-05-08 20:20:12,769:INFO:Checking environment
+2025-05-08 20:20:12,769:INFO:python_version: 3.9.12
+2025-05-08 20:20:12,769:INFO:python_build: ('tags/v3.9.12:b28265d', 'Mar 23 2022 23:52:46')
+2025-05-08 20:20:12,770:INFO:machine: AMD64
+2025-05-08 20:20:12,780:INFO:platform: Windows-10-10.0.26100-SP0
+2025-05-08 20:20:12,783:INFO:Memory: svmem(total=8435163136, available=2459799552, percent=70.8, used=5975363584, free=2459799552)
+2025-05-08 20:20:12,783:INFO:Physical Core: 4
+2025-05-08 20:20:12,783:INFO:Logical Core: 8
+2025-05-08 20:20:12,783:INFO:Checking libraries
+2025-05-08 20:20:12,783:INFO:System:
+2025-05-08 20:20:12,783:INFO:    python: 3.9.12 (tags/v3.9.12:b28265d, Mar 23 2022, 23:52:46) [MSC v.1929 64 bit (AMD64)]
+2025-05-08 20:20:12,783:INFO:executable: C:\Users\kambl\AppData\Local\Programs\Python\Python39\python.exe
+2025-05-08 20:20:12,783:INFO:   machine: Windows-10-10.0.26100-SP0
+2025-05-08 20:20:12,783:INFO:PyCaret required dependencies:
+2025-05-08 20:20:12,840:INFO:                 pip: 24.2
+2025-05-08 20:20:12,840:INFO:          setuptools: 58.1.0
+2025-05-08 20:20:12,840:INFO:             pycaret: 3.3.2
+2025-05-08 20:20:12,840:INFO:             IPython: 8.18.1
+2025-05-08 20:20:12,840:INFO:          ipywidgets: 8.1.2
+2025-05-08 20:20:12,840:INFO:                tqdm: 4.66.2
+2025-05-08 20:20:12,840:INFO:               numpy: 1.26.4
+2025-05-08 20:20:12,840:INFO:              pandas: 2.1.4
+2025-05-08 20:20:12,840:INFO:              jinja2: 3.1.3
+2025-05-08 20:20:12,840:INFO:               scipy: 1.11.4
+2025-05-08 20:20:12,840:INFO:              joblib: 1.3.2
+2025-05-08 20:20:12,840:INFO:             sklearn: 1.4.2
+2025-05-08 20:20:12,841:INFO:                pyod: 2.0.5
+2025-05-08 20:20:12,841:INFO:            imblearn: 0.12.4
+2025-05-08 20:20:12,841:INFO:   category_encoders: 2.6.4
+2025-05-08 20:20:12,841:INFO:            lightgbm: 4.6.0
+2025-05-08 20:20:12,841:INFO:               numba: 0.60.0
+2025-05-08 20:20:12,841:INFO:            requests: 2.31.0
+2025-05-08 20:20:12,841:INFO:          matplotlib: 3.7.5
+2025-05-08 20:20:12,841:INFO:          scikitplot: 0.3.7
+2025-05-08 20:20:12,841:INFO:         yellowbrick: 1.5
+2025-05-08 20:20:12,841:INFO:              plotly: 5.20.0
+2025-05-08 20:20:12,841:INFO:    plotly-resampler: Not installed
+2025-05-08 20:20:12,841:INFO:             kaleido: 0.2.1
+2025-05-08 20:20:12,841:INFO:           schemdraw: 0.15
+2025-05-08 20:20:12,841:INFO:         statsmodels: 0.14.4
+2025-05-08 20:20:12,841:INFO:              sktime: 0.26.0
+2025-05-08 20:20:12,841:INFO:               tbats: 1.1.3
+2025-05-08 20:20:12,841:INFO:            pmdarima: 2.0.4
+2025-05-08 20:20:12,841:INFO:              psutil: 5.9.8
+2025-05-08 20:20:12,841:INFO:          markupsafe: 2.1.5
+2025-05-08 20:20:12,841:INFO:             pickle5: Not installed
+2025-05-08 20:20:12,841:INFO:         cloudpickle: 3.1.1
+2025-05-08 20:20:12,841:INFO:         deprecation: 2.1.0
+2025-05-08 20:20:12,841:INFO:              xxhash: 3.5.0
+2025-05-08 20:20:12,841:INFO:           wurlitzer: Not installed
+2025-05-08 20:20:12,842:INFO:PyCaret optional dependencies:
+2025-05-08 20:20:12,881:INFO:                shap: Not installed
+2025-05-08 20:20:12,881:INFO:           interpret: Not installed
+2025-05-08 20:20:12,881:INFO:                umap: Not installed
+2025-05-08 20:20:12,881:INFO:     ydata_profiling: Not installed
+2025-05-08 20:20:12,881:INFO:  explainerdashboard: Not installed
+2025-05-08 20:20:12,881:INFO:             autoviz: Not installed
+2025-05-08 20:20:12,881:INFO:           fairlearn: Not installed
+2025-05-08 20:20:12,881:INFO:          deepchecks: Not installed
+2025-05-08 20:20:12,881:INFO:             xgboost: 2.1.4
+2025-05-08 20:20:12,881:INFO:            catboost: Not installed
+2025-05-08 20:20:12,881:INFO:              kmodes: Not installed
+2025-05-08 20:20:12,881:INFO:             mlxtend: Not installed
+2025-05-08 20:20:12,881:INFO:       statsforecast: Not installed
+2025-05-08 20:20:12,881:INFO:        tune_sklearn: Not installed
+2025-05-08 20:20:12,882:INFO:                 ray: Not installed
+2025-05-08 20:20:12,882:INFO:            hyperopt: Not installed
+2025-05-08 20:20:12,882:INFO:              optuna: Not installed
+2025-05-08 20:20:12,882:INFO:               skopt: Not installed
+2025-05-08 20:20:12,882:INFO:              mlflow: Not installed
+2025-05-08 20:20:12,882:INFO:              gradio: Not installed
+2025-05-08 20:20:12,882:INFO:             fastapi: Not installed
+2025-05-08 20:20:12,882:INFO:             uvicorn: Not installed
+2025-05-08 20:20:12,882:INFO:              m2cgen: Not installed
+2025-05-08 20:20:12,882:INFO:           evidently: Not installed
+2025-05-08 20:20:12,882:INFO:               fugue: Not installed
+2025-05-08 20:20:12,882:INFO:           streamlit: 1.35.0
+2025-05-08 20:20:12,882:INFO:             prophet: Not installed
+2025-05-08 20:20:12,883:INFO:None
+2025-05-08 20:20:12,883:INFO:Set up data.
+2025-05-08 20:20:12,914:INFO:Set up folding strategy.
+2025-05-08 20:20:12,914:INFO:Set up train/test split.
+2025-05-08 20:20:12,944:INFO:Set up index.
+2025-05-08 20:20:12,944:INFO:Assigning column types.
+2025-05-08 20:20:12,970:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2025-05-08 20:20:13,022:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-05-08 20:20:13,026:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:20:13,066:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:20:13,069:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:20:13,131:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-05-08 20:20:13,132:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:20:13,173:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:20:13,176:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:20:13,176:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2025-05-08 20:20:13,230:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:20:13,272:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:20:13,276:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:20:13,343:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-05-08 20:20:13,381:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:20:13,385:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:20:13,386:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2025-05-08 20:20:13,492:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:20:13,495:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:20:13,598:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:20:13,602:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:20:13,604:INFO:Preparing preprocessing pipeline...
+2025-05-08 20:20:13,610:INFO:Set up label encoding.
+2025-05-08 20:20:13,611:INFO:Set up simple imputation.
+2025-05-08 20:20:13,616:INFO:Set up column name cleaning.
+2025-05-08 20:20:13,740:INFO:Finished creating preprocessing pipeline.
+2025-05-08 20:20:13,751:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\kambl\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain'...
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2025-05-08 20:20:13,751:INFO:Creating final display dataframe.
+2025-05-08 20:20:14,150:INFO:Setup _display_container:                     Description                                              Value
+0                    Session id                                                123
+1                        Target                                          prognosis
+2                   Target type                                         Multiclass
+3                Target mapping  (vertigo) Paroymsal  Positional Vertigo: 0, AI...
+4           Original data shape                                        (4920, 133)
+5        Transformed data shape                                        (4920, 133)
+6   Transformed train set shape                                        (3444, 133)
+7    Transformed test set shape                                        (1476, 133)
+8              Numeric features                                                132
+9                    Preprocess                                               True
+10              Imputation type                                             simple
+11           Numeric imputation                                               mean
+12       Categorical imputation                                               mode
+13               Fold Generator                                    StratifiedKFold
+14                  Fold Number                                                 10
+15                     CPU Jobs                                                 -1
+16                      Use GPU                                              False
+17               Log Experiment                                              False
+18              Experiment Name                                   clf-default-name
+19                          USI                                               99f2
+2025-05-08 20:20:14,223:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:20:14,225:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:20:14,305:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-05-08 20:20:14,308:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-05-08 20:20:14,310:INFO:setup() successfully completed in 1.54s...............
+2025-05-08 20:20:14,310:INFO:Initializing create_model()
+2025-05-08 20:20:14,310:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000265AA89BCA0>, estimator=rf, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-08 20:20:14,310:INFO:Checking exceptions
+2025-05-08 20:20:14,313:INFO:Importing libraries
+2025-05-08 20:20:14,313:INFO:Copying training dataset
+2025-05-08 20:20:14,363:INFO:Defining folds
+2025-05-08 20:20:14,363:INFO:Declaring metric variables
+2025-05-08 20:20:14,363:INFO:Importing untrained model
+2025-05-08 20:20:14,364:INFO:Random Forest Classifier Imported successfully
+2025-05-08 20:20:14,364:INFO:Starting cross validation
+2025-05-08 20:20:14,366:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-08 20:20:21,060:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,066:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,073:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,080:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,094:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,106:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,112:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,128:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,148:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,200:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,226:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,239:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,241:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,251:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,263:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,268:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,286:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,308:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,365:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,365:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,379:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,380:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,392:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,395:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,830:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,838:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,843:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,855:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,859:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,864:WARNING:C:\Users\kambl\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1561: UserWarning: Note that pos_label (set to 'hepatitis A') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-05-08 20:20:21,878:INFO:Calculating mean and std
+2025-05-08 20:20:21,880:INFO:Creating metrics dataframe
+2025-05-08 20:20:21,883:INFO:Finalizing model
+2025-05-08 20:20:22,178:INFO:Uploading results into container
+2025-05-08 20:20:22,179:INFO:Uploading model into container now
+2025-05-08 20:20:22,190:INFO:_master_model_container: 1
+2025-05-08 20:20:22,190:INFO:_display_container: 2
+2025-05-08 20:20:22,191:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+2025-05-08 20:20:22,191:INFO:create_model() successfully completed......................................
+2025-05-08 20:20:22,264:INFO:Initializing finalize_model()
+2025-05-08 20:20:22,264:INFO:finalize_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000265AA89BCA0>, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2025-05-08 20:20:22,264:INFO:Finalizing RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+2025-05-08 20:20:22,293:INFO:Initializing create_model()
+2025-05-08 20:20:22,293:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000265AA89BCA0>, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-08 20:20:22,293:INFO:Checking exceptions
+2025-05-08 20:20:22,294:INFO:Importing libraries
+2025-05-08 20:20:22,294:INFO:Copying training dataset
+2025-05-08 20:20:22,297:INFO:Defining folds
+2025-05-08 20:20:22,297:INFO:Declaring metric variables
+2025-05-08 20:20:22,297:INFO:Importing untrained model
+2025-05-08 20:20:22,297:INFO:Declaring custom model
+2025-05-08 20:20:22,299:INFO:Random Forest Classifier Imported successfully
+2025-05-08 20:20:22,300:INFO:Cross validation set to False
+2025-05-08 20:20:22,300:INFO:Fitting Model
+2025-05-08 20:20:22,571:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_ton...
+                 RandomForestClassifier(bootstrap=True, ccp_alpha=0.0,
+                                        class_weight=None, criterion='gini',
+                                        max_depth=None, max_features='sqrt',
+                                        max_leaf_nodes=None, max_samples=None,
+                                        min_impurity_decrease=0.0,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        monotonic_cst=None, n_estimators=100,
+                                        n_jobs=-1, oob_score=False,
+                                        random_state=123, verbose=0,
+                                        warm_start=False))],
+         verbose=False)
+2025-05-08 20:20:22,572:INFO:create_model() successfully completed......................................
+2025-05-08 20:20:22,638:INFO:_master_model_container: 1
+2025-05-08 20:20:22,638:INFO:_display_container: 2
+2025-05-08 20:20:22,648:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_ton...
+                 RandomForestClassifier(bootstrap=True, ccp_alpha=0.0,
+                                        class_weight=None, criterion='gini',
+                                        max_depth=None, max_features='sqrt',
+                                        max_leaf_nodes=None, max_samples=None,
+                                        min_impurity_decrease=0.0,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        monotonic_cst=None, n_estimators=100,
+                                        n_jobs=-1, oob_score=False,
+                                        random_state=123, verbose=0,
+                                        warm_start=False))],
+         verbose=False)
+2025-05-08 20:20:22,648:INFO:finalize_model() successfully completed......................................
+2025-05-08 20:20:22,729:INFO:Initializing save_model()
+2025-05-08 20:20:22,729:INFO:save_model(model=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_ton...
+                 RandomForestClassifier(bootstrap=True, ccp_alpha=0.0,
+                                        class_weight=None, criterion='gini',
+                                        max_depth=None, max_features='sqrt',
+                                        max_leaf_nodes=None, max_samples=None,
+                                        min_impurity_decrease=0.0,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        monotonic_cst=None, n_estimators=100,
+                                        n_jobs=-1, oob_score=False,
+                                        random_state=123, verbose=0,
+                                        warm_start=False))],
+         verbose=False), model_name=xgboost_model, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\kambl\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain'...
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2025-05-08 20:20:22,729:INFO:Adding model into prep_pipe
+2025-05-08 20:20:22,729:WARNING:Only Model saved as it was a pipeline.
+2025-05-08 20:20:22,782:INFO:xgboost_model.pkl saved in current working directory
+2025-05-08 20:20:22,788:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_ton...
+                 RandomForestClassifier(bootstrap=True, ccp_alpha=0.0,
+                                        class_weight=None, criterion='gini',
+                                        max_depth=None, max_features='sqrt',
+                                        max_leaf_nodes=None, max_samples=None,
+                                        min_impurity_decrease=0.0,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        monotonic_cst=None, n_estimators=100,
+                                        n_jobs=-1, oob_score=False,
+                                        random_state=123, verbose=0,
+                                        warm_start=False))],
+         verbose=False)
+2025-05-08 20:20:22,788:INFO:save_model() successfully completed......................................
+2025-05-08 20:20:47,157:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:20:47,158:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:20:47,158:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:20:47,158:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 20:20:48,160:INFO:Initializing load_model()
+2025-05-08 20:20:48,160:INFO:load_model(model_name=xgboost_model, platform=None, authentication=None, verbose=True)
+2025-05-08 20:20:48,320:INFO:Initializing predict_model()
+2025-05-08 20:20:48,320:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002F1FA862B20>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['itching', 'skin_rash',
+                                             'nodal_skin_eruptions',
+                                             'continuous_sneezing', 'shivering',
+                                             'chills', 'joint_pain',
+                                             'stomach_pain', 'acidity',
+                                             'ulcers_on_tongue',
+                                             'muscle_wasting', 'vomiting',
+                                             'burni...
+                                             'high_fever', 'sunken_eyes',
+                                             'breathlessness', 'sweating',
+                                             'dehydration', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 RandomForestClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002F1D34A70D0>)
+2025-05-08 20:20:48,320:INFO:Checking exceptions
+2025-05-08 20:20:48,320:INFO:Preloading libraries
+2025-05-08 20:20:48,322:INFO:Set up data.
+2025-05-08 20:20:48,350:INFO:Set up index.
