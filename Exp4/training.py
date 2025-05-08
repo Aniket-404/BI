@@ -19,3 +19,15 @@ final_model = finalize_model(model)
 
 # Save model
 save_model(final_model, 'xgboost_model')  # name doesn't have to match actual algorithm
+
+
+
+
+# 'dataset' holds the input data for this script
+# from pycaret.classification import *
+
+# clf1 = setup(dataset, target='prognosis')
+
+# xgboost = create_model('xgboost', verbose=False)
+# final_xgboost = finalize_model(xgboost)
+# save_model(final_xgboost, "C:/Users/kambl/Desktop/Aniket/Degree/Main/BE/Sem 2/BI/BI/Exp4/")

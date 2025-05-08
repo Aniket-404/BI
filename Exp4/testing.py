@@ -21,3 +21,9 @@ predictions = predict_model(model, data=test_df)
 predictions.to_csv('predictions.csv', index=False)
 
 print("Prediction completed. Results saved to predictions.csv")
+
+
+
+# from pycaret.classification import *
+# xgboost = load_model("C:/Users/kambl/Desktop/Aniket/Degree/Main/BE/Sem 2/BI/BI/Exp4/")
+# dataset = predict_model(xgboost,data=dataset)
